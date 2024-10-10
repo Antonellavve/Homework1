@@ -1,6 +1,6 @@
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #2b2b2b; /* Un gris más oscuro para el fondo */
+  background-color: #2b2b2b; 
 }
 
 #about-me {
@@ -19,9 +19,9 @@ body {
 }
 
 h1 {
-  color: #f1f1f1; /* Color más claro para el texto */
+  color: #f1f1f1; 
   font-size: 40px;
-  background-color: #1f1f1f; /* Fondo más oscuro */
+  background-color: #1f1f1f; 
   text-transform: uppercase;
   height: 90px;
   width: 100%;
@@ -33,7 +33,7 @@ h1 {
 .text {
   width: 50%;
   margin-top: 20px;
-  background-color: #3e5757; /* Un tono más claro de verde azulado */
+  background-color: #3e5757; 
   border-radius: 10px;
   padding: 15px;
   font-size: 18px;
@@ -43,7 +43,7 @@ h1 {
 
 #about-me img {
   width: 30%;
-  height: auto; /* Mantener la proporción de la imagen */
+  height: auto; 
   margin-top: 20px;
   border-radius: 10px;
 }
@@ -75,8 +75,7 @@ h2 {
   padding: 10px;
   align-items: center;
   text-align: center;
-  background: #3e5757; /* Color de fondo más claro */
-  border-radius: 10px;
+  background: #3e5757;
 }
 
 .cards img {
@@ -86,7 +85,7 @@ h2 {
 
 .cards p {
   font-size: 14px;
-  color: #f1f1f1; /* Color más claro para el texto */
+  color: #f1f1f1;
 }
 
 #activities {
@@ -116,7 +115,7 @@ h2 {
   height: 10%;
   margin: 20px;
   padding: 10px;
-  background-color: #ff5733; /* Color vibrante para el botón */
+  background-color: #ff5733; 
   color: #ffffff;
   border: none; 
 }
@@ -199,12 +198,12 @@ h2 {
 .card h3 {
   font-size: 1.5em;
   margin-bottom: 10px;
-  color: #333; /* Color oscuro para el título */
+  color: #333; 
 }
 
 .card p {
   font-size: 1em;
-  color: #666; /* Color gris para el texto */
+  color: #666; 
 }
 
 .card button {
@@ -218,5 +217,5 @@ h2 {
 }
 
 .card button:hover {
-  background-color: #ff2e00; /* Efecto hover más oscuro */
+  background-color: #ff2e00; 
 }
