@@ -1,145 +1,222 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #333;
+  font-family: 'Arial', sans-serif;
+  background-color: #2b2b2b; /* Un gris más oscuro para el fondo */
 }
 
-#about-me{
-    display: flex;
-    flex-direction: column;
+#about-me {
+  display: flex;
+  flex-direction: column;
 }
 
-.presentation{
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 30px;
-
+.presentation {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
 }
 
 h1 {
-    color: white;
-    font-size: 24px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    top: 20px;
-    font-size: 40px;
-    background-color: black;
-    text-transform: uppercase;
-    height: 90px;
-    width: 100%;
+  color: #f1f1f1; /* Color más claro para el texto */
+  font-size: 40px;
+  background-color: #1f1f1f; /* Fondo más oscuro */
+  text-transform: uppercase;
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.text{
-    width: 50%;
-    margin-top: 20px;
-    background-color: #223a3a;
-    border-radius: 10px;
-    padding: 15px;
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
+.text {
+  width: 50%;
+  margin-top: 20px;
+  background-color: #3e5757; /* Un tono más claro de verde azulado */
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
 }
 
-#about-me img{
-    width: 30%;
-    height: 30%;
-    margin-top: 20px;
-    border-radius: 10px;
+#about-me img {
+  width: 30%;
+  height: auto; /* Mantener la proporción de la imagen */
+  margin-top: 20px;
+  border-radius: 10px;
 }
 
-h2{
-    font-size: 34px;
-    color: white;
-    margin: 30px;
+h2 {
+  font-size: 34px;
+  color: #f1f1f1;
+  margin: 30px;
 }
 
 #tecnologies {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .containerCard{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-  }
+.containerCard {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
 
-  .cards {
-    display: inline-block;
-    width: 400px;
-    height: auto;
-    padding: 10px;
-    align-items: center;
-    text-align: center;
-    background: #223a3a;
-    border-radius: 10px;
-  }
-  
-  .cards img{
-    height: 250px;
-    width: 350px;
-  }
-  
-  .cards p {
-    font-size: 14px;
-    color: rgb(254, 255, 255);
-  }
+.cards {
+  display: inline-block;
+  width: 400px;
+  height: auto;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  background: #3e5757; /* Color de fondo más claro */
+  border-radius: 10px;
+}
 
-  #activities{
-    margin-top: 5%;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
+.cards img {
+  height: 250px;
+  width: 350px;
+}
 
-  #activities button{
-    display: flex;
-    border-radius: 5px;
-    width: 10%;
-    height: 10%;
-    margin: 20px;
-    padding: 10px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-  }
+.cards p {
+  font-size: 14px;
+  color: #f1f1f1; /* Color más claro para el texto */
+}
 
-  .containerActivities{
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    align-items: center;
-    text-align: center;
-    color: white;
-    gap: 20px;
-  }
+#activities {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #3e5757;
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 10px;
+}
 
-  .containerActivities input{
-    width: 90%;
-    height: 20%;
-    padding: 10px;
-  }
+.form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
 
-  .footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: black;
-    margin-top: 8%;
-  }
+.form button {
+  border-radius: 5px;
+  width: auto;
+  height: 10%;
+  margin: 20px;
+  padding: 10px;
+  background-color: #ff5733; /* Color vibrante para el botón */
+  color: #ffffff;
+  border: none; 
+}
 
-  .footer h2{
-    font-size: 20px;
-    letter-spacing: 3px;
-  }
+.containerActivities {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  gap: 20px;
+}
+
+.containerActivities input {
+  width: 90%;
+  height: 20%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd; 
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #1f1f1f; 
+  margin-top: 8%;
+  padding: 20px;
+  height: 50px;
+}
+
+.footer h2 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #f1f1f1; 
+}
+
+.containerActivAdd {
+  margin-top: 40px; 
+  display: flex;
+  flex-direction: column;
+  width: 80%; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px; 
+  border-radius: 10px;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center; 
+  gap: 20px; 
+  width: 100%;
+}
+/* Estilos para la tarjeta (card) */
+.card {
+  display: flex;
+  background-color: #f0f0f0; 
+  border: 1px solid #ddd; 
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333; /* Color oscuro para el título */
+}
+
+.card p {
+  font-size: 1em;
+  color: #666; /* Color gris para el texto */
+}
+
+.card button {
+  background-color: #ff5733;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: auto;
+}
+
+.card button:hover {
+  background-color: #ff2e00; /* Efecto hover más oscuro */
+}
